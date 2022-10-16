@@ -1,0 +1,47 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  margin: 0;
+  position: absolute;
+  background-color: beige;
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 9pt;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+}
+
+#jeopardy th, #jeopardy td {
+  width: 160px;
+  height: 120px;
+  border-left: solid #115ff4;
+  border-right: solid #115ff4;
+  border-top: solid #0959ec;
+  border-bottom: solid #5f97ff;
+}
+
+th {
+  text-transform: uppercase;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  height: 4em;
+  text-shadow: black 1px 1px;
+}
+
+td {
+  height: 9em;
+  font-family: Copse, serif;
+}
+
+td:hover {
+  cursor: pointer;
+}
